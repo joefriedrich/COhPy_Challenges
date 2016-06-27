@@ -1,7 +1,3 @@
-
-
-
-
 def multiples(n):
     while n > 0:
         if n % 3 == 0 or n % 5 == 0:
@@ -23,6 +19,4 @@ def euler_one_generator(n):
     result = 0
     for i in multiples(n):
         result += i
-    print(result)
-
-euler_one_generator(get_number_from_user())
+    return result
